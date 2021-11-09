@@ -8,7 +8,8 @@ func main() {
 	//ÇifteListeÇalıştır()
 	//ÇalıştırKuyruk()
 	//ÇalıştırYığınlar()
-	DaireselListeÇalıştır()
+	//DaireselListeÇalıştır()
+	makine()
 }
 
 func makine() {
