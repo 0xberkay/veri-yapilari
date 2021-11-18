@@ -4,11 +4,6 @@ import "fmt"
 
 func main() {
 
-	//ÇalıştırBağlıListe()
-	//ÇifteListeÇalıştır()
-	//ÇalıştırKuyruk()
-	//ÇalıştırYığınlar()
-	//DaireselListeÇalıştır()
 	makine()
 }
 
@@ -32,5 +27,8 @@ func makine() {
 	} else if a == 5 {
 		fmt.Println("5. DaireselListeÇalıştır.")
 		DaireselListeÇalıştır()
+	} else if a == 6 {
+		stringim := "( a + b ) / c + ( d - c ) * f"
+		fmt.Println(İnfixToPrefix(stringim))
 	}
 }
