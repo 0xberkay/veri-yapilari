@@ -30,5 +30,8 @@ func makine() {
 	} else if a == 6 {
 		stringim := "( a + b ) / c + ( d - c ) * f"
 		fmt.Println(İnfixToPrefix(stringim))
+	} else if a == 7 {
+		ÇalıştırAğaç()
 	}
+
 }

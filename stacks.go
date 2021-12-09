@@ -62,6 +62,7 @@ func ÇalıştırYığınlar() {
 	fmt.Printf("Yığının en üsteki elemanı : %s \n", yığın.dondur())
 	fmt.Printf("Yığının boyutu : %v \n", yığın.boyut())
 	fmt.Printf("Yığın boş mu ? : %v \n", yığın.bosMu())
+	fmt.Println(yığın.dondurOkadar(3))
 	fmt.Println(yığın)
 
 }

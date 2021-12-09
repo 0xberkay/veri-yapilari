@@ -2,19 +2,22 @@ package main
 
 import "fmt"
 
-type ÇifteDüğüm struct { // Bir sonrakini ve öncekini ifade eden düğüm tipi
+// Bir sonrakini ve öncekini ifade eden düğüm tipi
+type ÇifteDüğüm struct {
 	değer   int
 	önceki  *ÇifteDüğüm
 	sonraki *ÇifteDüğüm
 }
 
-type ÇiftYönlüListe struct { //Çift yönlü liste türü
+//Çift yönlü liste türü
+type ÇiftYönlüListe struct {
 	baş     *ÇifteDüğüm
 	kuyruk  *ÇifteDüğüm
 	uzunluk int
 }
 
-func (ç *ÇiftYönlüListe) başaEkle(değer int) { //Başa ekleme fonksiyonu
+//Başa ekleme fonksiyonu
+func (ç *ÇiftYönlüListe) başaEkle(değer int) {
 	yeniDüğüm := &ÇifteDüğüm{
 		değer: değer,
 	}
