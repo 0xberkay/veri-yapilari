@@ -74,25 +74,6 @@ func (d *İkiliAğaçDüğümu) enBüyük() int {
 	}
 }
 
-// Ekleme fonksiyonu
-func (d *İkiliAğaçDüğümu) Ekle(veri int) {
-	if d.Deger < veri {
-		//sağa taşı
-		if d.Sag == nil { // eğer sağ düğüm boşsa
-			d.Sag = &İkiliAğaçDüğümu{Deger: veri} // düğümün değerini düğümün sağına ata
-		} else { // eğer sağ düğüm boş değilse
-			d.Sag.Ekle(veri) // fonksiyonu tekrar çağır
-		}
-	} else if d.Deger > veri { // eğer düğümün değeri veri değerinden büyükse
-		//sola taşı
-		if d.Sol == nil { // eğer sol düğüm boşsa
-			d.Sol = &İkiliAğaçDüğümu{Deger: veri} // düğümün değerini düğümün soluna ata
-		} else { // eğer sol düğüm boş değilse
-			d.Sol.Ekle(veri) // fonksiyonu tekrar çağır
-		}
-	}
-}
-
 // Silme fonksiyonu
 func (d *İkiliAğaçDüğümu) Sil(veri int) {
 
