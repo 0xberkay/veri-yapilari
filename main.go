@@ -8,7 +8,7 @@ func main() {
 }
 
 func makine() {
-	fmt.Println("Çalıştırılması istediğiniz değeri girin : ")
+	fmt.Println("Çalıştırılması istediğiniz değeri girin : [1-9] ")
 	var a int
 	for {
 		fmt.Scan(&a)
