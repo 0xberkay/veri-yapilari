@@ -7,4 +7,7 @@ func testEt() {
 	ÇalıştırYığınlar()
 	DaireselListeÇalıştır()
 	İnfixToPrefix("( a + b ) / c + ( d - c ) * f")
+	ÇalıştırAğaç()
+	ÇalıştırAVL()
+	DiyagramÇalıştır()
 }
