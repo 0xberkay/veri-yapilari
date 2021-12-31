@@ -32,6 +32,10 @@ func makine() {
 		fmt.Println(İnfixToPrefix(stringim))
 	} else if a == 7 {
 		ÇalıştırAğaç()
+	} else if a == 8 {
+		ÇalıştırAVL()
+	} else if a == 9 {
+		DiyagramÇalıştır()
 	}
 
 }
